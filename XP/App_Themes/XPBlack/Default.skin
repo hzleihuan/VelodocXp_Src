@@ -1,0 +1,72 @@
+﻿<%--
+/*
+ * Copyright © 2005-2008 Memba SA. All rights reserved.
+ * 
+ * This file is part of Velodoc XP Edition.
+ * 
+ * Velodoc XP Edition is open-source software: you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free Software Foundation,
+ * either version 2 of the License, or (at your option) any later version.
+ * 
+ * Velodoc XP Edition is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ * or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License along with Velodoc XP Edition.
+ * If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * For more information, please contact Memba at <http://www.memba.com>.
+ * You can find more information about Velodoc at <http://www.velodoc.com> and <http://www.velodoc.com/help>.
+ * You can try Velodoc online at <http://www.velodoc.net>.
+ *
+*/ 
+--%>
+<%@ Register TagPrefix="mbui" Namespace="Memba.WebControls" Assembly="Memba.WebControls.XP" %>
+
+<%--
+Tabbed Menu
+--%>
+<asp:Menu runat="server" SkinID="sknTabbedMenu" CssClass="cssTabbedMenuControl" Orientation="Horizontal" MaximumDynamicDisplayLevels="0">
+    <StaticMenuStyle CssClass="cssTabbedMenu" />
+    <StaticMenuItemStyle CssClass="cssTabbedMenuItem" />
+    <StaticHoverStyle CssClass="cssTabbedMenuHover" />
+    <StaticSelectedStyle CssClass="cssTabbedMenuSelected" />
+</asp:Menu>
+
+<%--
+PageTitle and InfoBox
+--%>
+<mbui:InfoBox runat="server" SkinID="sknPageTitle" ImageColWidth="32px" Width="100%" CssClass="cssPageTitleTable" ImageCssClass="cssPageTitleImage" TextCssClass="cssPageTitleLabel"></mbui:InfoBox>
+<mbui:InfoBox runat="server" SkinID="sknInfoBox" ImageColWidth="35px" Width="100%" CssClass="cssInfoBoxTable" ImageCssClass="cssInfoBoxImage" TextCssClass="cssInfoBoxLabel"></mbui:InfoBox>
+<asp:Label runat="server" SkinID="sknPageSubTitleLabel" CssClass="cssPageSubTitleLabel" ></asp:Label>
+<asp:Label runat="server" SkinID="sknStepTitle" CssClass="cssStepTitle"></asp:Label>
+
+<%--
+Forms data entry controls
+--%>
+<asp:Label runat="server" SkinID="sknOptionalFieldLabel" CssClass="cssOptionalFieldLabel"></asp:Label>
+<asp:Label runat="server" SkinID="sknMandatoryFieldLabel" CssClass="cssMandatoryFieldLabel"></asp:Label>
+<asp:Label runat="server" SkinID="sknFieldValue" CssClass="cssFieldValue"></asp:Label>
+<asp:Label runat="server" SkinID="sknHelpLabel" CssClass="cssHelpLabel"></asp:Label>
+<asp:TextBox runat="server" SkinID="sknTextBox" CssClass="cssTextBox" />
+<asp:TextBox runat="server" SkinID="sknTextArea" CssClass="cssTextArea" />
+<asp:DropDownList runat="server" SkinID="sknDropDownList" CssClass="cssDropDownList" />
+<asp:CheckBox runat="server" SkinID="sknCheckBox" CssClass="cssCheckBox" />
+<asp:LinkButton runat="server" SkinID="sknLinkButton" CssClass="cssLinkButton" />
+<asp:HyperLink runat="server" SkinID="sknFieldHyperlink" CssClass="cssFieldHyperlink"></asp:HyperLink>
+<asp:HyperLink runat="server" SkinID="sknCommandHyperlink" CssClass="cssCommandHyperlink"></asp:HyperLink>
+<asp:FileUpload runat="server" SkinID="sknFileUpload" CssClass="cssFileUpload" />
+<asp:Button runat="server" SkinID="sknButton" CssClass="cssButton" />
+
+<%--
+Forms data entry validators
+--%>
+<asp:RequiredFieldValidator runat="server" SkinID="sknRequiredFieldValidator" CssClass="cssRequiredFieldValidator"></asp:RequiredFieldValidator>
+<asp:CompareValidator runat="server" SkinID="sknCompareValidator" CssClass="cssCompareValidator"></asp:CompareValidator>
+
+<%--
+Progress Bars, File Lists and MultiUpload
+--%>
+<mbui:ProgressReport runat="server" SkinID="sknProgressReport" CssClass="cssProgressReport" BarCssClass="cssProgressBar" FillerCssClass="cssProgressFiller" TextCssClass="cssProgressText" ></mbui:ProgressReport>
+<mbui:ImageList runat="server" SkinID="sknFileList" CssClass="cssFileList" ItemCssClass="cssFileListItem" ItemHoverCssClass="cssFileListItemHover" ImageCssClass="cssFileListImage" TextCssClass="cssFileListText" RemoveCssClass="cssFileListRemove" LinesOfText="2"></mbui:ImageList>
+<mbui:MultiUpload2 runat="server" SkinID="sknMultiUpload2" CssClass="cssMultiUpload" HoverCssClass="cssMultiUploadHover"></mbui:MultiUpload2>

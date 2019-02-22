@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Product ProductCode="Memba.Update.1.0" xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper">
+  <PackageFiles CopyAllPackageFiles="false">
+    <PackageFile Name="UpdateSetup.msi" />
+  </PackageFiles>
+  <RelatedProducts>
+    <DependsOnProduct Code="Microsoft.Net.Framework.3.5" />
+    <DependsOnProduct Code="Microsoft.Windows.Installer.3.1" />
+  </RelatedProducts>
+  <InstallChecks>
+    <FileCheck Property="HasUpdate" SpecialFolder="ProgramFilesFolder" SearchPath="Memba\Update" FileName="Memba.Update.exe" />
+  </InstallChecks>
+  <Commands Reboot="Defer">
+    <Command PackageFile="UpdateSetup.msi" EstimatedInstalledBytes="650000" EstimatedInstallSeconds="30" EstimatedTempBytes="800000">
+      <InstallConditions>
+        <BypassIf Property="HasUpdate" Compare="ValueExists" Value="N/A for ValueExists and ValueNotExists" />
+      </InstallConditions>
+      <ExitCodes>
+        <ExitCode Value="0" Result="Success" />
+        <ExitCode Value="1641" Result="SuccessReboot" />
+        <ExitCode Value="3010" Result="SuccessReboot" />
+        <ExitCode Value="4123" Result="SuccessReboot" />
+        <DefaultExitCode Result="Fail" String="Anunexpectedexitcodewasr" FormatMessageFromSystem="true" />
+      </ExitCodes>
+    </Command>
+  </Commands>
+</Product>

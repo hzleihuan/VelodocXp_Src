@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="App_Name" xml:space="preserve">
+    <value>Velodoc XP</value>
+    <comment>Do not translate</comment>
+  </data>
+  <data name="DropBox_WelcomeInfo" xml:space="preserve">
+    <value>Benutzen Sie diese Seite zum Versenden von großen Dateien an die Organisation, die diese Webseite betreut. Geben Sie Ihre E-Mailadresse als Absender ein, wählen Sie den Empfänger aus, schreiben Sie eine Nachricht, wählen Sie die Dateien aus, die hochgeladen werden sollen, akzeptieren Sie die Geschäftsbedingungen und klicken Sie auf &lt;em&gt;Absenden&lt;/em&gt;.</value>
+  </data>
+  <data name="MainMenu_GetHelp" xml:space="preserve">
+    <value>Hilfe</value>
+  </data>
+  <data name="MainMenu_Home" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Master_TopOfPage" xml:space="preserve">
+    <value>Nach oben</value>
+  </data>
+  <data name="QuickMessageControl_BackButton" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="QuickMessageControl_FileAlreadyInList" xml:space="preserve">
+    <value>Die Datei ist bereits in der Liste vorhanden.</value>
+  </data>
+  <data name="QuickMessageControl_GetHelp" xml:space="preserve">
+    <value>Die Online-Hilfe anzeigen.</value>
+  </data>
+  <data name="QuickMessageControl_GoSecure" xml:space="preserve">
+    <value>Aktivieren Sie die Sicherheit und benutzen Sie verschlüsselte Mitteilungen.</value>
+  </data>
+  <data name="QuickMessageControl_GoUnsecure" xml:space="preserve">
+    <value>Deaktivieren Sie die Sicherheit und maximieren Sie die Leistungen.</value>
+  </data>
+  <data name="QuickMessageControl_InvalidSendInfo" xml:space="preserve">
+    <value>Bitte geben Sie gültige E-mailadressen für Absender und Empfänger ein, wählen Sie mindestens eine Datei zum Hochladen aus und akzeptieren Sie vor dem Absenden unsere Geschäftsbedingungen.</value>
+  </data>
+  <data name="QuickMessageControl_MissingUploadData" xml:space="preserve">
+    <value>Es gibt keine Daten zum Hochladen.</value>
+  </data>
+  <data name="QuickMessageControl_NoCompleteFile" xml:space="preserve">
+    <value>Es konnte keine Datei hochgeladen werden. Bitte prüfen Sie, ob die Dateien, die Sie ausgewählt haben, existieren.</value>
+  </data>
+  <data name="QuickMessageControl_PoweredBy" xml:space="preserve">
+    <value>Erhalten Sie den Quellcode.</value>
+  </data>
+  <data name="QuickMessageControl_Recipient" xml:space="preserve">
+    <value>Empfänger:</value>
+  </data>
+  <data name="QuickMessageControl_SecurityCode" xml:space="preserve">
+    <value>Sicherheitscode:</value>
+  </data>
+  <data name="QuickMessageControl_SecurityCodeFailInfo" xml:space="preserve">
+    <value>Sie können keine Dateien versenden, weil das System den eingegebenen Sicherheitscode nicht als gültig befinden kann.</value>
+  </data>
+  <data name="QuickMessageControl_SendButton" xml:space="preserve">
+    <value>Senden</value>
+  </data>
+  <data name="QuickMessageControl_Sender" xml:space="preserve">
+    <value>Absender:</value>
+  </data>
+  <data name="QuickMessageControl_SendFinalDescription" xml:space="preserve">
+    <value>Die unten aufgelisteten Dateien wurden übermittelt und sind auf unseren Servern gespeichert, wo sie {0} Tage verfügbar bleiben. Ihr Empfänger wird in Kürze eine E-Mail mit Anweisungen für das Herunterladen dieser Dateien erhalten.</value>
+  </data>
+  <data name="QuickMessageControl_SendOKInfo" xml:space="preserve">
+    <value>Ihre Dateien wurden hochgeladen und eine Nachricht versandt.</value>
+  </data>
+  <data name="QuickMessageControl_SendProgressInfo" xml:space="preserve">
+    <value>Dateiübermittlung läuft. Bitte schließen Sie diese Seite nicht und wechseln Sie zu keiner anderen Seite, bevor die Übermittlung abgeschlossen ist.</value>
+  </data>
+  <data name="QuickMessageControl_SendProgressReport" xml:space="preserve">
+    <value>Hochladen der Datei läuft. Bitte warten...</value>
+  </data>
+  <data name="QuickMessageControl_SendStep1" xml:space="preserve">
+    <value>Geben Sie die E-Mailadressen ein.</value>
+  </data>
+  <data name="QuickMessageControl_SendStep2" xml:space="preserve">
+    <value>Schreiben Sie eine Nachricht.</value>
+  </data>
+  <data name="QuickMessageControl_SendStep3" xml:space="preserve">
+    <value>Wählen Sie große Dateien zum Hochladen aus (bis zu insgesamt {0}).</value>
+  </data>
+  <data name="QuickMessageControl_SendStep4" xml:space="preserve">
+    <value>Versenden Sie die Nachricht mit den Links zum Herunterladen der großen Dateien.</value>
+  </data>
+  <data name="QuickMessageControl_StopButton" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="QuickMessageControl_StopInfo" xml:space="preserve">
+    <value>Das Hochladen wurde vom Benutzer abgebrochen.</value>
+  </data>
+  <data name="QuickMessageControl_Terms" xml:space="preserve">
+    <value>Ich akzeptiere die &lt;a href="terms.htm" target="_blank" class="cssCommandHyperlink"&gt;AGB&lt;/a&gt;.</value>
+  </data>
+  <data name="QuickMessageControl_UploadNotComplete" xml:space="preserve">
+    <value>Wenn die Übermittlung nicht abgeschlossen ist, können keine Dateiaufzeichnungen erstellt werden.</value>
+  </data>
+  <data name="QuickSend_WelcomeInfo" xml:space="preserve">
+    <value>Benutzen Sie diese Seite zum Versenden von großen Dateien an eine beliebige E-Mailadresse. Wählen Sie den Absender, geben Sie den Empfänger an, schreiben Sie eine Nachricht, wählen Sie Dateien zum Hochladen aus, geben Sie den Sicherheitscode ein und klicken Sie auf  &lt;em&gt;Senden&lt;/em&gt;.</value>
+  </data>
+  <data name="sknImageList_RemoveTooltip" xml:space="preserve">
+    <value>Aus der Auswahl entfernen.</value>
+  </data>
+  <data name="sknMultiUpload_Text" xml:space="preserve">
+    <value>Wählen Sie eine Datei...</value>
+  </data>
+  <data name="sknProgressReport_DefaultText" xml:space="preserve">
+    <value>In Wartestellung...</value>
+  </data>
+  <data name="sknProgressReport_TextFormat" xml:space="preserve">
+    <value>{0} Erledigt.&lt;br/&gt;Hochladen {1} von {2} auf {3}.&lt;br/&gt;Verstrichene Zeit: {4}, Verbleibende Zeit: {5}.</value>
+  </data>
+  <data name="UploadHandler_UnhandledException" xml:space="preserve">
+    <value>Bei der Bearbeitung des Uploads ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal, oder wenden Sie sich an uns.</value>
+  </data>
+  <data name="UploadHandler_Unknown" xml:space="preserve">
+    <value>unbekannt</value>
+  </data>
+  <data name="WebService_AuthenticationFailInfo" xml:space="preserve">
+    <value>Sie können keine Dateien übermitteln, weil das System Ihre Anmeldedaten (E-Mailadresse und Sicherheitscode) nicht als gültig erkennen kann.</value>
+  </data>
+  <data name="WebService_NoCallFromOtherDomain" xml:space="preserve">
+    <value>Dieser Web-Service kann von keiner anderen Domäne aus aufgerufen werden.</value>
+  </data>
+  <data name="WebService_TimedOut" xml:space="preserve">
+    <value>Der Service ist zu stark beansprucht. Bitte versuchen Sie es in ein paar Minuten noch einmal.</value>
+  </data>
+</root>

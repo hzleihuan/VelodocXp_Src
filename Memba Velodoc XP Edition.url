@@ -1,0 +1,5 @@
+[DEFAULT]
+BASEURL=http://localhost:80/VelodocXP
+[InternetShortcut]
+URL=http://localhost:80/VelodocXP
+IconFile=http://localhost:80/VelodocXP/favicon.ico

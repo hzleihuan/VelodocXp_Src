@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Product ProductCode="{511DAC48-6CBB-43a3-A64D-0182F2A9EBC2}" xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper">
+    <PackageFiles CopyAllPackageFiles="false">
+        <PackageFile Name="Dotnetfx3.exe" HomeSite="InstMsiWinFXRC"/>
+        <PackageFile Name="Dotnetfx3_x64.exe" HomeSite="InstMsiWinFXRCx64"/>
+        <PackageFile Name="wfxproxy.exe" />
+    </PackageFiles>
+    <InstallChecks>
+        <RegistryCheck Property="WinFXInstalled" Key="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\Setup" Value="InstallSuccess" />
+        <RegistryCheck Property="WinFX64BitInstalled" Key="HKLM\SOFTWARE\Wow6432Node\Microsoft\NET Framework Setup\NDP\v3.0\Setup" Value="InstallSuccess" />
+        <RegistryCheck Property="IEVersion" Key="HKLM\Software\Microsoft\Internet Explorer" Value="Version" />
+    </InstallChecks>
+    <Commands Reboot="Defer">
+        <Command PackageFile="Dotnetfx3.exe" Arguments="/q /norestart" EstimatedInstalledBytes="300000000" EstimatedInstallSeconds="300" EstimatedTempBytes="300000000">
+            <InstallConditions>
+                <!--  Skip 32-bit fx pkg on a 64-bit OS -->
+                <BypassIf Property="ProcessorArchitecture" Compare="ValueNotEqualTo" Value="Intel" />
+                
+                <BypassIf Property="WinFXInstalled" Compare="ValueEqualTo" Value="1" />
+
+                <!-- Block install if user does not have admin privileges -->
+                <FailIf Property="AdminUser" Compare="ValueEqualTo" Value="false" String="AdminRequired"/>
+
+                <!-- Block install on Windows 95 -->
+                <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatformWin9x"/>
+
+                <!-- Block install on Windows XP or less -->
+                <FailIf Property="VersionNT" Compare="VersionLessThan" Value="5.1.0" String="InvalidPlatformWinNT"/>
+
+                <!-- Block install if IE 6.00 or greater is not present -->
+                <FailIf Property="IEVersion" Compare="ValueNotExists" String="InvalidPlatformIE" />
+                <FailIf Property="IEVersion" Compare="VersionLessThan" Value="6.00" String="InvalidPlatformIE" />
+            </InstallConditions>
+            <ExitCodes>
+                <ExitCode Value="0" Result="Success" />
+                <ExitCode Value="3010" Result="SuccessReboot" />
+                <ExitCode Value="4097" Result="Fail" String="AdminRequired" />
+                <ExitCode Value="4101" Result="Fail" String="AnotherInstanceRunning" />
+                <ExitCode Value="4113" Result="Fail" String="BetaNDPFailure" />
+                <DefaultExitCode Result="Fail" FormatMessageFromSystem="true" String="GeneralFailure" />
+            </ExitCodes>
+        </Command>
+        <Command PackageFile="Dotnetfx3_64.exe" Arguments="/q /norestart" EstimatedInstalledBytes="300000000" EstimatedInstallSeconds="300" EstimatedTempBytes="300000000">
+            <InstallConditions>
+                <!--  Don't install the 64-bit pkg on a 32-bit OS -->
+                <BypassIf Property="ProcessorArchitecture" Compare="ValueNotEqualTo" Value="AMD64" />
+                
+                <BypassIf Property="WinFX64BitInstalled" Compare="ValueEqualTo" Value="1" />
+
+                <!-- Block install if user does not have admin privileges -->
+                <FailIf Property="AdminUser" Compare="ValueEqualTo" Value="false" String="AdminRequired"/>
+
+                <!-- Block install on Windows 95 -->
+                <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatformWin9x"/>
+
+                <!-- Block install on Windows XP or less -->
+                <FailIf Property="VersionNT" Compare="VersionLessThan" Value="5.1.0" String="InvalidPlatformWinNT"/>
+
+                <!-- Block install if IE 6.00 or greater is not present -->
+                <FailIf Property="IEVersion" Compare="ValueNotExists" String="InvalidPlatformIE" />
+                <FailIf Property="IEVersion" Compare="VersionLessThan" Value="6.00" String="InvalidPlatformIE" />
+            </InstallConditions>
+            <ExitCodes>
+                <ExitCode Value="0" Result="Success" />
+                <ExitCode Value="3010" Result="SuccessReboot" />
+                <ExitCode Value="4097" Result="Fail" String="AdminRequired" />
+                <ExitCode Value="4101" Result="Fail" String="AnotherInstanceRunning" />
+                <ExitCode Value="4113" Result="Fail" String="BetaNDPFailure" />
+                <DefaultExitCode Result="Fail" FormatMessageFromSystem="true" String="GeneralFailure" />
+            </ExitCodes>
+        </Command>
+        <Command PackageFile="wfxproxy.exe" Arguments="/q /norestart" EstimatedInstalledBytes="300000000" EstimatedInstallSeconds="300" EstimatedTempBytes="300000000">
+                <InstallConditions>
+                    <!--  Don't install the 64-bit pkg on a 32-bit OS -->
+                    <BypassIf Property="ProcessorArchitecture" Compare="ValueNotEqualTo" Value="IA64" />
+
+                    <BypassIf Property="WinFX64BitInstalled" Compare="ValueEqualTo" Value="1" />
+
+                    <!-- Block install if user does not have admin privileges -->
+                    <FailIf Property="AdminUser" Compare="ValueEqualTo" Value="false" String="AdminRequired"/>
+
+                    <!-- Block install on Windows 95 -->
+                    <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatformWin9x"/>
+
+                    <!-- Block install on Windows Vista or less -->
+                    <FailIf Property="VersionNT" Compare="VersionLessThan" Value="6.0.0" String="InvalidPlatformWinNT"/>
+
+                    <!-- Block install if IE 6.00 or greater is not present -->
+                    <FailIf Property="IEVersion" Compare="ValueNotExists" String="InvalidPlatformIE" />
+                    <FailIf Property="IEVersion" Compare="VersionLessThan" Value="6.00" String="InvalidPlatformIE" />
+                </InstallConditions>
+                <ExitCodes>
+                    <ExitCode Value="0" Result="Success" />
+                    <ExitCode Value="3010" Result="SuccessReboot" />
+                    <ExitCode Value="4097" Result="Fail" String="AdminRequired" />
+                    <ExitCode Value="4101" Result="Fail" String="AnotherInstanceRunning" />
+                    <ExitCode Value="4113" Result="Fail" String="BetaNDPFailure" />
+                    <DefaultExitCode Result="Fail" FormatMessageFromSystem="true" String="GeneralFailure" />
+                </ExitCodes>
+            </Command>
+      </Commands>
+</Product>

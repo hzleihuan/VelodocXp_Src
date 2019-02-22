@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Package
+  xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"
+  Name="DisplayName"
+  Culture="Culture"
+  LicenseAgreement="eula.txt"
+>
+    <PackageFiles>
+        <PackageFile Name="eula.txt"/>
+        <PackageFile Name="dotnetfx3langpackjp.exe" HomeSite="InstMsiWinFXRC_JA"/>
+        <PackageFile Name="dotnetfx3langpack_x64jp.exe" HomeSite="InstMsiWinFXRCx64_JA"/>
+    </PackageFiles>
+    <InstallChecks>
+        <RegistryCheck Property="JALANGPACKInstalled" Key="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0\1041" Value="Install" />
+        <RegistryCheck Property="JAX64LANGPACKInstalled" Key="HKLM\SOFTWARE\Wow6432Node\Microsoft\NET Framework Setup\NDP\v3.0\1041" Value="Install" />
+    </InstallChecks>
+    <Commands>
+        <Command PackageFile="dotnetfx3langpackjp.exe" Arguments="/q /norestart" EstimatedInstalledBytes="300000000" EstimatedInstallSeconds="300" EstimatedTempBytes="300000000">
+          <InstallConditions>
+            <!--  Skip 32-bit fx pkg on a 64-bit OS -->
+            <BypassIf Property="ProcessorArchitecture" Compare="ValueNotEqualTo" Value="Intel" />
+
+            <BypassIf Property="JALANGPACKInstalled" Compare="ValueEqualTo" Value="1" />
+
+            <!-- Block install on Windows Vista or less -->
+            <BypassIf Property="VersionNT" Compare="ValueGreaterThanOrEqualTo" Value="6.0.0" />
+
+            <!-- Block install if user does not have admin privileges -->
+            <FailIf Property="AdminUser" Compare="ValueEqualTo" Value="false" String="AdminRequired"/>
+
+            <!-- Block install on Windows 95 -->
+            <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatformWin9x"/>
+
+            <!-- Block install on Windows XP or less -->
+            <FailIf Property="VersionNT" Compare="VersionLessThan" Value="5.1.0" String="InvalidPlatformWinNT"/>
+
+            <!-- Block install if IE 6.00 or greater is not present -->
+            <FailIf Property="IEVersion" Compare="ValueNotExists" String="InvalidPlatformIE" />
+            <FailIf Property="IEVersion" Compare="VersionLessThan" Value="6.00" String="InvalidPlatformIE" />
+          </InstallConditions>
+          <ExitCodes>
+            <ExitCode Value="0" Result="Success" />
+            <ExitCode Value="3010" Result="SuccessReboot" />
+            <ExitCode Value="4097" Result="Fail" String="AdminRequired" />
+            <ExitCode Value="4101" Result="Fail" String="AnotherInstanceRunning" />
+            <ExitCode Value="4113" Result="Fail" String="BetaNDPFailure" />
+            <DefaultExitCode Result="Fail" FormatMessageFromSystem="true" String="GeneralFailure" />
+          </ExitCodes>
+        </Command>
+        <Command PackageFile="dotnetfx3langpack_x64jp.exe" Arguments="/q /norestart" EstimatedInstalledBytes="300000000" EstimatedInstallSeconds="300" EstimatedTempBytes="300000000">
+          <InstallConditions>
+            <!--  Don't install the 64-bit pkg on a 32-bit OS -->
+            <BypassIf Property="ProcessorArchitecture" Compare="ValueNotEqualTo" Value="AMD64" />
+
+            <BypassIf Property="JAX64LANGPACKInstalled" Compare="ValueEqualTo" Value="1" />
+
+            <!-- Block install on Windows Vista or less -->
+            <BypassIf Property="VersionNT" Compare="ValueGreaterThanOrEqualTo" Value="6.0.0" />
+
+            <!-- Block install if user does not have admin privileges -->
+            <FailIf Property="AdminUser" Compare="ValueEqualTo" Value="false" String="AdminRequired"/>
+
+            <!-- Block install on Windows 95 -->
+            <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatformWin9x"/>
+
+            <!-- Block install on Windows XP or less -->
+            <FailIf Property="VersionNT" Compare="VersionLessThan" Value="5.1.0" String="InvalidPlatformWinNT"/>
+
+            <!-- Block install if IE 6.00 or greater is not present -->
+            <FailIf Property="IEVersion" Compare="ValueNotExists" String="InvalidPlatformIE" />
+            <FailIf Property="IEVersion" Compare="VersionLessThan" Value="6.00" String="InvalidPlatformIE" />
+          </InstallConditions>
+          <ExitCodes>
+            <ExitCode Value="0" Result="Success" />
+            <ExitCode Value="3010" Result="SuccessReboot" />
+            <ExitCode Value="4097" Result="Fail" String="AdminRequired" />
+            <ExitCode Value="4101" Result="Fail" String="AnotherInstanceRunning" />
+            <ExitCode Value="4113" Result="Fail" String="BetaNDPFailure" />
+            <DefaultExitCode Result="Fail" FormatMessageFromSystem="true" String="GeneralFailure" />
+          </ExitCodes>
+        </Command>
+    </Commands>
+    <!-- Defines a localizable string table for error messages-->
+    <Strings>
+        <String Name="DisplayName">.NET Framework 3.0</String>
+        <String Name="Culture">ja</String>
+        <String Name="InstMsiWinFXRC_JA">http://go.microsoft.com/fwlink/?LinkId=73761</String>
+        <String Name="InstMsiWinFXRCx64_JA">http://go.microsoft.com/fwlink/?LinkId=73762</String>
+        <String Name="AdminRequired">.NET Framework 3.0 をインストールするには管理者権限が必要です。管理者にお問い合わせください。</String>
+        <String Name="AnotherInstanceRunning">セットアップの別のインスタンスが既に実行されています。</String>
+        <String Name="BetaNDPFailure">.NET Framework のベータ版が検出されました。.NET Framework の古いベータ版をアンインストールしてから、続行してください。</String>
+        <String Name="GeneralFailure">.NET Framework 3.0 をインストールしようとしてエラーが発生しました。</String>
+    </Strings>
+</Package>

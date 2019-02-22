@@ -1,0 +1,27 @@
+<VSBootstrapperManifest>
+  <ProjectProperties ProjectName="ASPNETAjax" BuildLocation="PackagesDir" BuildDirectory="C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\Bootstrapper\Packages\New Project" DefaultLanguage="en" />
+  <UIPackage ProductCode="ASPNETAjax">
+    <UIChecks>
+      <MsiProductCheck MsiProductCode="{082BDF7B-4810-4599-BF0D-E3AC44EC8524}" Property="HasAjax" />
+    </UIChecks>
+    <Relationships>
+      <Relationship Type="DependsOn" Code="{511DAC48-6CBB-43a3-A64D-0182F2A9EBC2}" />
+      <Relationship Type="DependsOn" Code="Microsoft.Windows.Installer.3.1" />
+    </Relationships>
+    <CustomSchedules />
+  </UIPackage>
+  <UIInstallFile FileName="D:\Documents\Velodoc XP Edition\Packages\ASPNETAjax\ASPAJAXExtSetup.msi" DisplayName="ASP.NET Ajax Extensions 1.0" Arguments="" Reboot="" PublicKey="3082010A0282010100CD819638AE5CA2F2C1DFDED0AB958DD63C9D1F8BC35D862E5DF0B172F5ABAC886AB5DAB1227B0BC8C8A54B915E2213E9F9F5239DB5F46E76AEEFEEA43CC7C4C0595C3FABB3733326A662816179A162F46E8895D06EDDC79FD2A451117661BA708A65A1961689A75D81D04466E5DB569E40CAFCDC76242E443000E5D67D7B9511D5581DA3E84F0BC988DCA2D653996CCA63CA996A9A925E4C4D11E82FD35B5B5E5F52A3732DA5BB84450D8C191576CB08DA9AA67015E84DEC69FD5DB26B8FED295137388BC6464915945098B0F468A4D7DE097167749E778C1D856B97EAE75F45CCE0E6710DD16300937B31988E0BB413BDB3D0EEF1DF21EEA96061EE37433DC30203010001" IncludePublicKey="True" FileHash="FB3816E2B0C0A75689C7D39E78595F944EA3A641" Locale="neutral">
+    <UIChecks />
+    <UIInstallConditions>
+      <UIInstallCondition Type="ByPassIf" Property="HasAjax" Operator="&gt;" Value="0" Message="" />
+    </UIInstallConditions>
+    <UIExitCodes>
+      <UIExitCode ExitCode="0" Result="Success" Message="" />
+      <UIExitCode ExitCode="1641" Result="Success, Reboot Needed" Message="" />
+      <UIExitCode ExitCode="3010" Result="Success, Reboot Needed" Message="" />
+      <UIExitCode ExitCode="4123" />
+      <DefaultExitCode Result="Fail" FormatMessageFromSystem="True" Message="An unexpected exit code was returned from the installer. The installation failed." />
+    </UIExitCodes>
+    <LooseFiles />
+  </UIInstallFile>
+</VSBootstrapperManifest>

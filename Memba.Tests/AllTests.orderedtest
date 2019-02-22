@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tests>
+  <edtdocversion branch="retail" build="50727" revision="312" />
+  <AutoSuite type="Microsoft.VisualStudio.TestTools.TestTypes.Ordered.AutoSuite, Microsoft.VisualStudio.QualityTools.Tips.OrderedTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <m_continueAfterFailure type="System.Boolean">True</m_continueAfterFailure>
+    <links type="System.Collections.ArrayList">
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">e2438d11-dd61-fb38-020c-ada20311208a</id>
+        <name type="System.String">InsertTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">05e82708-9d6a-e574-449d-b828fcff5527</id>
+        <name type="System.String">SelectByGuidTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">b32998d0-9278-3085-caf1-648d3fd2de19</id>
+        <name type="System.String">SendTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">cdec6a08-ea0a-1454-cf4a-7bed56ff418c</id>
+        <name type="System.String">RegistryKeyTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">9781b8bf-5c54-7577-ee01-99fb18ab2538</id>
+        <name type="System.String">AddStoragePermissionsTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">f31fcb6b-c0d1-666e-6c2a-0fa3456dac9a</id>
+        <name type="System.String">FindServerNumTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">d38ecce7-4260-2a27-b08c-5596ab2f776c</id>
+        <name type="System.String">MapDatExtensionToAspNetTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">f7b699af-a853-4436-b1b5-2309f772b3a4</id>
+        <name type="System.String">Switch404PageTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">a0130764-9989-1200-75b0-4402a8fb0442</id>
+        <name type="System.String">UpdateAppConfigTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">f71b9409-4252-8e42-061a-3da5caad9d0d</id>
+        <name type="System.String">UpdateWebConfigTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">d1bf5f97-4b2d-634e-d959-10e2321ae4d0</id>
+        <name type="System.String">UpdateStorageConfigTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">0b4b0f7f-113b-890b-d979-4d5132191f2b</id>
+        <name type="System.String">UpdateSmtpConfigTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">99129730-4b68-4806-4a8b-dfe06862e9d7</id>
+        <name type="System.String">ParseTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">d0078140-2844-2d93-4688-891abbca6483</id>
+        <name type="System.String">UIDropTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+      <element type="Microsoft.VisualStudio.TestTools.Common.Link">
+        <id type="System.Guid">64e9c682-c68d-c2dc-5a85-66eed3b584cb</id>
+        <name type="System.String">UISendTest</name>
+        <storage type="System.String">bin\debug\memba.tests.xp.dll</storage>
+        <type type="System.Type, mscorlib">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</type>
+        <enabled type="System.Boolean">True</enabled>
+      </element>
+    </links>
+    <cssProjectStructure type="System.String" />
+    <isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+    <timeOut type="System.Int32">2147483647</timeOut>
+    <isGroupable type="System.Boolean">True</isGroupable>
+    <abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+    <cssIteration type="System.String" />
+    <workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+      <_size type="System.Int32">0</_size>
+      <_version type="System.Int32">1</_version>
+    </workItemIds>
+    <id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+      <id type="System.Guid">72e73aa7-2ff3-490b-b06e-d597de0cf9ae</id>
+    </id>
+    <name type="System.String">AllTests</name>
+    <description type="System.String">Place your description here</description>
+    <enabled type="System.Boolean">True</enabled>
+    <owner type="System.String" />
+    <priority type="System.Int32">0</priority>
+    <executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+      <id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+    </executionId>
+    <parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+      <id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+    </parentExecutId>
+    <deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+    <agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <storage type="System.String">d:\documents\velodoc xp edition\memba.tests\alltests.orderedtest</storage>
+    <projectData type="Microsoft.VisualStudio.TestTools.Common.ProjectData">
+      <id type="System.Guid">44deacb3-2387-4048-b8d3-f89e130a81c1</id>
+      <projectName type="System.String">Memba.Tests</projectName>
+      <solutionName type="System.String">Velodoc XP Edition</solutionName>
+      <projectRelativePath type="System.String">Memba.Tests\Memba.Tests.csproj</projectRelativePath>
+    </projectData>
+    <m_nonRunnableReason type="System.String" />
+  </AutoSuite>
+</Tests>

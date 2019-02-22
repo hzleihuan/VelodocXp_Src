@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorPage" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" &gt;
+&lt;head&gt;&lt;title&gt;Error {0}: {1}&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;&lt;h1&gt;Error {0}: {1}&lt;/h1&gt;&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="ExceptionCannotProcessIfNotComplete" xml:space="preserve">
+    <value>No se puede procesar una carga que no se haya completado.</value>
+  </data>
+  <data name="ExceptionConnectionClosed" xml:space="preserve">
+    <value>Se cerró la conexión entre el explorador y el servidor.</value>
+  </data>
+  <data name="ExceptionEndOfBufferReached" xml:space="preserve">
+    <value>La suma de la compensación y el recuento no puede ser mayor que la longitud del búfer.</value>
+  </data>
+  <data name="ExceptionLicenseProviderInvalidKey" xml:space="preserve">
+    <value>"{0}" no es una clave de licencia adquirida de manera válida.</value>
+  </data>
+  <data name="ExceptionLicenseProviderServiceError" xml:space="preserve">
+    <value>Se produjo un error con el servicio de licencias.</value>
+  </data>
+  <data name="ExceptionMalformedContentType" xml:space="preserve">
+    <value>Solicitud errónea. El tipo de contenido no define un límite.</value>
+  </data>
+  <data name="ExceptionMultipartBoundaryNotFound" xml:space="preserve">
+    <value>Límite de partes múltiples no encontrado.</value>
+  </data>
+  <data name="ExceptionNotImplemented" xml:space="preserve">
+    <value>El método u operación no está implementado.</value>
+  </data>
+  <data name="ExceptionNullContext" xml:space="preserve">
+    <value>El contexto no puede ser nulo.</value>
+  </data>
+  <data name="ExceptionNullOrEmptyUploadId" xml:space="preserve">
+    <value>El identificador de la carga no puede ser nulo ni estar vacío. Debe agregar un parámetro denominado "muid" a la cadena de consulta de su solicitud.</value>
+  </data>
+  <data name="ExceptionPostTooLarge" xml:space="preserve">
+    <value>La entidad de la solicitud es demasiado grande. Intente cargar archivos más pequeños.</value>
+  </data>
+  <data name="ExceptionRequestCanceled" xml:space="preserve">
+    <value>El usuario ha cancelado la solicitud.</value>
+  </data>
+  <data name="ExceptionStorageProviderCannotCreateDirectory" xml:space="preserve">
+    <value>No se puede crear el directorio especificado en la cadena de conexión de la configuración del proveedor para el almacenamiento de archivos.</value>
+  </data>
+  <data name="ExceptionStorageProviderCannotLoadDefault" xml:space="preserve">
+    <value>No se puede cargar el proveedor de almacenamiento de archivos predeterminado.</value>
+  </data>
+  <data name="ExceptionStorageProviderInvalidType" xml:space="preserve">
+    <value>Tipo de proveedor no válido en la configuración del proveedor de almacenamiento de archivos.</value>
+  </data>
+  <data name="ExceptionStorageProviderMissingConnectionString" xml:space="preserve">
+    <value>Cadena de conexión vacía o faltante en la configuración del proveedor de almacenamiento de archivos.</value>
+  </data>
+  <data name="ExceptionStorageProviderUnrecognizedAttribute" xml:space="preserve">
+    <value>Atributo "{0}" no reconocido en la configuración del proveedor de almacenamiento de archivos.</value>
+  </data>
+  <data name="ExceptionUnauthorizedAccessToUploadData" xml:space="preserve">
+    <value>Acceso denegado para cargar los datos.</value>
+  </data>
+  <data name="ExceptionUnhandled" xml:space="preserve">
+    <value>Ocurrió una excepción sin control en el módulo de carga.</value>
+  </data>
+  <data name="ExceptionZeroContentLength" xml:space="preserve">
+    <value>La longitud del contenido es 0. Probablemente Flash8 esté probando la conexión antes de una carga.</value>
+  </data>
+  <data name="MessageUploadCompleted" xml:space="preserve">
+    <value>La carga se completó correctamente.</value>
+  </data>
+  <data name="UploadData_BytesProgress" xml:space="preserve">
+    <value>Transferido: {0} bytes de {1} bytes a {2:N0} bytes/sec</value>
+  </data>
+  <data name="UploadData_Exception" xml:space="preserve">
+    <value>Excepción: {0}</value>
+  </data>
+  <data name="UploadData_Files" xml:space="preserve">
+    <value>Archivos:</value>
+  </data>
+  <data name="UploadData_Request" xml:space="preserve">
+    <value>Solicitud: {0}</value>
+  </data>
+  <data name="UploadData_TimeProgress" xml:space="preserve">
+    <value>Tiempo transcurrido: {0}, Tiempo restante: {1}, Tiempo total: {2}</value>
+  </data>
+  <data name="UploadData_Title" xml:space="preserve">
+    <value>-- Cargar datos --</value>
+  </data>
+  <data name="UploadData_UploadFile" xml:space="preserve">
+    <value>· {0} [{1}] ({2} bytes) -&gt; {3}</value>
+  </data>
+  <data name="UploadData_UploadId" xml:space="preserve">
+    <value>Id.: {0}</value>
+  </data>
+  <data name="UploadData_UploadProgressStatus" xml:space="preserve">
+    <value>Estado: {0} {1:P0}</value>
+  </data>
+  <data name="UploadData_UserName" xml:space="preserve">
+    <value>Nombre de usuario: {0}</value>
+  </data>
+  <data name="UploadProgressStatus_UploadCanceled" xml:space="preserve">
+    <value>Carga cancelada</value>
+  </data>
+  <data name="UploadProgressStatus_UploadCompleted" xml:space="preserve">
+    <value>Carga completada</value>
+  </data>
+  <data name="UploadProgressStatus_UploadFailed" xml:space="preserve">
+    <value>Error al cargar</value>
+  </data>
+  <data name="UploadProgressStatus_UploadInProgress" xml:space="preserve">
+    <value>Carga en progreso</value>
+  </data>
+  <data name="UploadProgressStatus_UploadUnknown" xml:space="preserve">
+    <value>Carga en un estado desconocido</value>
+  </data>
+</root>

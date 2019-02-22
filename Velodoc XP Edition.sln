@@ -1,0 +1,428 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\XP\", "XP", "{033409EB-C16B-486F-B53B-6033AAA48BDF}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProvider = ""
+		ProjectReferences = "{61DA03D6-D5DD-409B-A5D7-A8F197836227}|Memba.FileDownload.XP.dll;{5A958EC7-15E8-48B5-BCF7-F95AD7C7660C}|Memba.FileUpload.XP.dll;{7E8A8959-4EBD-4DF7-9125-8171D068DB63}|Memba.WebControls.XP.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/XP"
+		Debug.AspNetCompiler.PhysicalPath = "XP\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\XP\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/XP"
+		Release.AspNetCompiler.PhysicalPath = "XP\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\XP\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49855"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memba.WebControls", "Memba.WebControls\Memba.WebControls.csproj", "{7E8A8959-4EBD-4DF7-9125-8171D068DB63}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memba.FileUpload", "Memba.FileUpload\Memba.FileUpload.csproj", "{5A958EC7-15E8-48B5-BCF7-F95AD7C7660C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memba.FileDownload", "Memba.FileDownload\Memba.FileDownload.csproj", "{61DA03D6-D5DD-409B-A5D7-A8F197836227}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2CFEAB61-6A3B-4EB8-B523-560B4BEEF521}") = "XP_deploy", "XP_deploy\XP_deploy.wdproj", "{3D3D8F8B-B7FA-4025-922C-D8ABC807B234}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memba.PurgeService", "Memba.PurgeService\Memba.PurgeService.csproj", "{87121CCF-8A70-4DB6-9D15-34AD71DE64DC}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memba.Files", "Memba.Files\Memba.Files.csproj", "{C8DC6141-311F-4164-B8AD-B90A678BF89A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memba.Tests", "Memba.Tests\Memba.Tests.csproj", "{44DEACB3-2387-4048-B8D3-F89E130A81C1}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0DEA1F59-48A3-405F-BC1B-22192C37A07D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		cleanbuild.cmd = cleanbuild.cmd
+		localtestrun.testrunconfig = localtestrun.testrunconfig
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "XP_setup", "XP_setup\XP_setup.vdproj", "{B8AE7144-D05A-47E2-ABA2-B14838AC248F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memba.Install", "Memba.Install\Memba.Install.csproj", "{A99E1912-518B-40D6-A5EE-49C527999632}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup Dialogs", "Setup Dialogs", "{984D5F73-4D91-476F-A55B-8B4398660A4E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Setup Dialogs\CopyToVS2005.cmd = Setup Dialogs\CopyToVS2005.cmd
+		Setup Dialogs\CopyToVS2008.cmd = Setup Dialogs\CopyToVS2008.cmd
+		Setup Dialogs\IMPORTANT! UAC.txt = Setup Dialogs\IMPORTANT! UAC.txt
+		Setup Dialogs\readme.txt = Setup Dialogs\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0", "0", "{3CBF2154-62FF-483F-8282-2A8C523FE88C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Setup Dialogs\0\VsdMyPrerequisitesDlg.wid = Setup Dialogs\0\VsdMyPrerequisitesDlg.wid
+		Setup Dialogs\0\VsdMySmtpConfigDlg.wid = Setup Dialogs\0\VsdMySmtpConfigDlg.wid
+		Setup Dialogs\0\VsdMyStorageDlg.wid = Setup Dialogs\0\VsdMyStorageDlg.wid
+		Setup Dialogs\0\VsdMyUserListDlg.wid = Setup Dialogs\0\VsdMyUserListDlg.wid
+		Setup Dialogs\0\VsdMyVelodocXPLicDlg2.wid = Setup Dialogs\0\VsdMyVelodocXPLicDlg2.wid
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1033", "1033", "{3AD10F6B-F25C-471D-AE18-DDF9521AD375}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Setup Dialogs\1033\VsdMyPrerequisitesDlg.wid = Setup Dialogs\1033\VsdMyPrerequisitesDlg.wid
+		Setup Dialogs\1033\VsdMySmtpConfigDlg.wid = Setup Dialogs\1033\VsdMySmtpConfigDlg.wid
+		Setup Dialogs\1033\VsdMyStorageDlg.wid = Setup Dialogs\1033\VsdMyStorageDlg.wid
+		Setup Dialogs\1033\VsdMyUserListDlg.wid = Setup Dialogs\1033\VsdMyUserListDlg.wid
+		Setup Dialogs\1033\VsdMyVelodocXPLicDlg2.wid = Setup Dialogs\1033\VsdMyVelodocXPLicDlg2.wid
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assemblies", "Assemblies", "{A54FBF13-B654-4BD5-8264-680CB51FF9D1}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Assemblies\Microsoft.Web.Administration.dll = Assemblies\Microsoft.Web.Administration.dll
+		Assemblies\System.Web.Extensions.Design.dll = Assemblies\System.Web.Extensions.Design.dll
+		Assemblies\System.Web.Extensions.dll = Assemblies\System.Web.Extensions.dll
+		Assemblies\WatiN.Core.dll = Assemblies\WatiN.Core.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{4EF54856-98E6-45FE-90D2-98A646160DBF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Architecture and Design.docx = Documentation\Architecture and Design.docx
+		Documentation\Architecture and Design.pptx = Documentation\Architecture and Design.pptx
+		Documentation\codeplex.ico = Documentation\codeplex.ico
+		Documentation\datasheet-en.pdf = Documentation\datasheet-en.pdf
+		Documentation\datasheet-fr.pdf = Documentation\datasheet-fr.pdf
+		Documentation\Developer Tutorial.docx = Documentation\Developer Tutorial.docx
+		Documentation\folder_document.ico = Documentation\folder_document.ico
+		Documentation\GPL License.doc = Documentation\GPL License.doc
+		Documentation\Installation Guide.docx = Documentation\Installation Guide.docx
+		Documentation\Memba EULA.doc = Documentation\Memba EULA.doc
+		Documentation\Prerequisites.rtf = Documentation\Prerequisites.rtf
+		Documentation\Readme.rtf = Documentation\Readme.rtf
+		Documentation\Test Plan.docx = Documentation\Test Plan.docx
+		Documentation\VelodocSuite.exe = Documentation\VelodocSuite.exe
+		Documentation\Vision and Requirements.docx = Documentation\Vision and Requirements.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{868DD796-0010-4629-9880-A3B0FE7816F4}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Packages\ASPNETAjax.VSBootstrapperManifest = Packages\ASPNETAjax.VSBootstrapperManifest
+		Packages\CopyToVS2005.cmd = Packages\CopyToVS2005.cmd
+		Packages\CopyToVS2008.cmd = Packages\CopyToVS2008.cmd
+		Packages\curl.exe = Packages\curl.exe
+		Packages\Memba.Update.VSBootstrapperManifest = Packages\Memba.Update.VSBootstrapperManifest
+		Packages\readme.txt = Packages\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memba.Update", "Memba.Update", "{D238D186-A139-457A-A45B-0553CA415838}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Packages\Memba.Update\product.xml = Packages\Memba.Update\product.xml
+		Packages\Memba.Update\setup.exe = Packages\Memba.Update\setup.exe
+		Packages\Memba.Update\UpdateSetup.msi = Packages\Memba.Update\UpdateSetup.msi
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASPNETAjax", "ASPNETAjax", "{24752ACF-ECE3-435F-B77E-9C581DEEC96C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Packages\ASPNETAjax\ASPAJAXExtSetup.msi = Packages\ASPNETAjax\ASPAJAXExtSetup.msi
+		Packages\ASPNETAjax\product.xml = Packages\ASPNETAjax\product.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "en", "en", "{AD54FDCE-4FBE-4CDB-9CAB-F5066ACABC13}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Packages\Memba.Update\en\package.xml = Packages\Memba.Update\en\package.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "en", "en", "{9275E982-AE65-42AE-8A80-6F9D14D81719}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Packages\ASPNETAjax\en\package.xml = Packages\ASPNETAjax\en\package.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NETFX30", "NETFX30", "{9ED50EFE-5587-4AF5-8FD3-1C73E46BB558}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Packages\NETFX30\dotnetfx3.exe = Packages\NETFX30\dotnetfx3.exe
+		Packages\NETFX30\dotnetfx3_x64.exe = Packages\NETFX30\dotnetfx3_x64.exe
+		Packages\NETFX30\product.xml = Packages\NETFX30\product.xml
+		Packages\NETFX30\wfxproxy.exe = Packages\NETFX30\wfxproxy.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "en", "en", "{20435EB3-4884-4D3D-AADF-D343951A6717}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Packages\NETFX30\en\eula.txt = Packages\NETFX30\en\eula.txt
+		Packages\NETFX30\en\package.xml = Packages\NETFX30\en\package.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "de", "de", "{A2B5848E-B263-4461-B602-7D8483CFD1FA}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Packages\NETFX30\de\eula.txt = Packages\NETFX30\de\eula.txt
+		Packages\NETFX30\de\package.xml = Packages\NETFX30\de\package.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ja", "ja", "{E47202E0-61C2-450C-B4B3-B1F61BAA082C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Packages\NETFX30\ja\eula.txt = Packages\NETFX30\ja\eula.txt
+		Packages\NETFX30\ja\package.xml = Packages\NETFX30\ja\package.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bitmaps", "Bitmaps", "{B16C1A55-3D19-44E0-B67A-E871BD834C01}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		Setup Dialogs\Bitmaps\banner.bmp = Setup Dialogs\Bitmaps\banner.bmp
+		Setup Dialogs\Bitmaps\banner.png = Setup Dialogs\Bitmaps\banner.png
+		Setup Dialogs\Bitmaps\codeplex.ico = Setup Dialogs\Bitmaps\codeplex.ico
+		Setup Dialogs\Bitmaps\folder_document.ico = Setup Dialogs\Bitmaps\folder_document.ico
+		Setup Dialogs\Bitmaps\velodoc.ico = Setup Dialogs\Bitmaps\velodoc.ico
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memba.Dns", "Memba.Dns\Memba.Dns.csproj", "{6D765924-73E9-49AE-8A97-DA24958A540C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memba.Dns.Tests", "Memba.DNS.Tests\Memba.Dns.Tests.csproj", "{098DBB8D-6419-4381-8299-D20E58ECC8E6}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{033409EB-C16B-486F-B53B-6033AAA48BDF}.Debug|.NET.ActiveCfg = Debug|.NET
+		{033409EB-C16B-486F-B53B-6033AAA48BDF}.Debug|.NET.Build.0 = Debug|.NET
+		{033409EB-C16B-486F-B53B-6033AAA48BDF}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{033409EB-C16B-486F-B53B-6033AAA48BDF}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{033409EB-C16B-486F-B53B-6033AAA48BDF}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{033409EB-C16B-486F-B53B-6033AAA48BDF}.Release|.NET.ActiveCfg = Debug|.NET
+		{033409EB-C16B-486F-B53B-6033AAA48BDF}.Release|.NET.Build.0 = Debug|.NET
+		{033409EB-C16B-486F-B53B-6033AAA48BDF}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{033409EB-C16B-486F-B53B-6033AAA48BDF}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{033409EB-C16B-486F-B53B-6033AAA48BDF}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{7E8A8959-4EBD-4DF7-9125-8171D068DB63}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{7E8A8959-4EBD-4DF7-9125-8171D068DB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8A8959-4EBD-4DF7-9125-8171D068DB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8A8959-4EBD-4DF7-9125-8171D068DB63}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7E8A8959-4EBD-4DF7-9125-8171D068DB63}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7E8A8959-4EBD-4DF7-9125-8171D068DB63}.Release|.NET.ActiveCfg = Release|Any CPU
+		{7E8A8959-4EBD-4DF7-9125-8171D068DB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8A8959-4EBD-4DF7-9125-8171D068DB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8A8959-4EBD-4DF7-9125-8171D068DB63}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7E8A8959-4EBD-4DF7-9125-8171D068DB63}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5A958EC7-15E8-48B5-BCF7-F95AD7C7660C}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{5A958EC7-15E8-48B5-BCF7-F95AD7C7660C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A958EC7-15E8-48B5-BCF7-F95AD7C7660C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A958EC7-15E8-48B5-BCF7-F95AD7C7660C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5A958EC7-15E8-48B5-BCF7-F95AD7C7660C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5A958EC7-15E8-48B5-BCF7-F95AD7C7660C}.Release|.NET.ActiveCfg = Release|Any CPU
+		{5A958EC7-15E8-48B5-BCF7-F95AD7C7660C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A958EC7-15E8-48B5-BCF7-F95AD7C7660C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A958EC7-15E8-48B5-BCF7-F95AD7C7660C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5A958EC7-15E8-48B5-BCF7-F95AD7C7660C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{61DA03D6-D5DD-409B-A5D7-A8F197836227}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{61DA03D6-D5DD-409B-A5D7-A8F197836227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61DA03D6-D5DD-409B-A5D7-A8F197836227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61DA03D6-D5DD-409B-A5D7-A8F197836227}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{61DA03D6-D5DD-409B-A5D7-A8F197836227}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{61DA03D6-D5DD-409B-A5D7-A8F197836227}.Release|.NET.ActiveCfg = Release|Any CPU
+		{61DA03D6-D5DD-409B-A5D7-A8F197836227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61DA03D6-D5DD-409B-A5D7-A8F197836227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61DA03D6-D5DD-409B-A5D7-A8F197836227}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{61DA03D6-D5DD-409B-A5D7-A8F197836227}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3D3D8F8B-B7FA-4025-922C-D8ABC807B234}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{3D3D8F8B-B7FA-4025-922C-D8ABC807B234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3D8F8B-B7FA-4025-922C-D8ABC807B234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3D8F8B-B7FA-4025-922C-D8ABC807B234}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3D3D8F8B-B7FA-4025-922C-D8ABC807B234}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3D3D8F8B-B7FA-4025-922C-D8ABC807B234}.Release|.NET.ActiveCfg = Release|Any CPU
+		{3D3D8F8B-B7FA-4025-922C-D8ABC807B234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3D8F8B-B7FA-4025-922C-D8ABC807B234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D3D8F8B-B7FA-4025-922C-D8ABC807B234}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3D3D8F8B-B7FA-4025-922C-D8ABC807B234}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{87121CCF-8A70-4DB6-9D15-34AD71DE64DC}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{87121CCF-8A70-4DB6-9D15-34AD71DE64DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87121CCF-8A70-4DB6-9D15-34AD71DE64DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87121CCF-8A70-4DB6-9D15-34AD71DE64DC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{87121CCF-8A70-4DB6-9D15-34AD71DE64DC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{87121CCF-8A70-4DB6-9D15-34AD71DE64DC}.Release|.NET.ActiveCfg = Release|Any CPU
+		{87121CCF-8A70-4DB6-9D15-34AD71DE64DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87121CCF-8A70-4DB6-9D15-34AD71DE64DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87121CCF-8A70-4DB6-9D15-34AD71DE64DC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{87121CCF-8A70-4DB6-9D15-34AD71DE64DC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C8DC6141-311F-4164-B8AD-B90A678BF89A}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{C8DC6141-311F-4164-B8AD-B90A678BF89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DC6141-311F-4164-B8AD-B90A678BF89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DC6141-311F-4164-B8AD-B90A678BF89A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C8DC6141-311F-4164-B8AD-B90A678BF89A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C8DC6141-311F-4164-B8AD-B90A678BF89A}.Release|.NET.ActiveCfg = Release|Any CPU
+		{C8DC6141-311F-4164-B8AD-B90A678BF89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DC6141-311F-4164-B8AD-B90A678BF89A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8DC6141-311F-4164-B8AD-B90A678BF89A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C8DC6141-311F-4164-B8AD-B90A678BF89A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{44DEACB3-2387-4048-B8D3-F89E130A81C1}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{44DEACB3-2387-4048-B8D3-F89E130A81C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DEACB3-2387-4048-B8D3-F89E130A81C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DEACB3-2387-4048-B8D3-F89E130A81C1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{44DEACB3-2387-4048-B8D3-F89E130A81C1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{44DEACB3-2387-4048-B8D3-F89E130A81C1}.Release|.NET.ActiveCfg = Release|Any CPU
+		{44DEACB3-2387-4048-B8D3-F89E130A81C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DEACB3-2387-4048-B8D3-F89E130A81C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44DEACB3-2387-4048-B8D3-F89E130A81C1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{44DEACB3-2387-4048-B8D3-F89E130A81C1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B8AE7144-D05A-47E2-ABA2-B14838AC248F}.Debug|.NET.ActiveCfg = Debug
+		{B8AE7144-D05A-47E2-ABA2-B14838AC248F}.Debug|Any CPU.ActiveCfg = Debug
+		{B8AE7144-D05A-47E2-ABA2-B14838AC248F}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{B8AE7144-D05A-47E2-ABA2-B14838AC248F}.Release|.NET.ActiveCfg = Release
+		{B8AE7144-D05A-47E2-ABA2-B14838AC248F}.Release|Any CPU.ActiveCfg = Release
+		{B8AE7144-D05A-47E2-ABA2-B14838AC248F}.Release|Mixed Platforms.ActiveCfg = Release
+		{A99E1912-518B-40D6-A5EE-49C527999632}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{A99E1912-518B-40D6-A5EE-49C527999632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99E1912-518B-40D6-A5EE-49C527999632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99E1912-518B-40D6-A5EE-49C527999632}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A99E1912-518B-40D6-A5EE-49C527999632}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A99E1912-518B-40D6-A5EE-49C527999632}.Release|.NET.ActiveCfg = Release|Any CPU
+		{A99E1912-518B-40D6-A5EE-49C527999632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99E1912-518B-40D6-A5EE-49C527999632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99E1912-518B-40D6-A5EE-49C527999632}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A99E1912-518B-40D6-A5EE-49C527999632}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6D765924-73E9-49AE-8A97-DA24958A540C}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{6D765924-73E9-49AE-8A97-DA24958A540C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D765924-73E9-49AE-8A97-DA24958A540C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D765924-73E9-49AE-8A97-DA24958A540C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6D765924-73E9-49AE-8A97-DA24958A540C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6D765924-73E9-49AE-8A97-DA24958A540C}.Release|.NET.ActiveCfg = Release|Any CPU
+		{6D765924-73E9-49AE-8A97-DA24958A540C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D765924-73E9-49AE-8A97-DA24958A540C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D765924-73E9-49AE-8A97-DA24958A540C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6D765924-73E9-49AE-8A97-DA24958A540C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{098DBB8D-6419-4381-8299-D20E58ECC8E6}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{098DBB8D-6419-4381-8299-D20E58ECC8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098DBB8D-6419-4381-8299-D20E58ECC8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098DBB8D-6419-4381-8299-D20E58ECC8E6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{098DBB8D-6419-4381-8299-D20E58ECC8E6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{098DBB8D-6419-4381-8299-D20E58ECC8E6}.Release|.NET.ActiveCfg = Release|Any CPU
+		{098DBB8D-6419-4381-8299-D20E58ECC8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098DBB8D-6419-4381-8299-D20E58ECC8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{098DBB8D-6419-4381-8299-D20E58ECC8E6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{098DBB8D-6419-4381-8299-D20E58ECC8E6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CBF2154-62FF-483F-8282-2A8C523FE88C} = {984D5F73-4D91-476F-A55B-8B4398660A4E}
+		{3AD10F6B-F25C-471D-AE18-DDF9521AD375} = {984D5F73-4D91-476F-A55B-8B4398660A4E}
+		{B16C1A55-3D19-44E0-B67A-E871BD834C01} = {984D5F73-4D91-476F-A55B-8B4398660A4E}
+		{D238D186-A139-457A-A45B-0553CA415838} = {868DD796-0010-4629-9880-A3B0FE7816F4}
+		{24752ACF-ECE3-435F-B77E-9C581DEEC96C} = {868DD796-0010-4629-9880-A3B0FE7816F4}
+		{9ED50EFE-5587-4AF5-8FD3-1C73E46BB558} = {868DD796-0010-4629-9880-A3B0FE7816F4}
+		{AD54FDCE-4FBE-4CDB-9CAB-F5066ACABC13} = {D238D186-A139-457A-A45B-0553CA415838}
+		{9275E982-AE65-42AE-8A80-6F9D14D81719} = {24752ACF-ECE3-435F-B77E-9C581DEEC96C}
+		{20435EB3-4884-4D3D-AADF-D343951A6717} = {9ED50EFE-5587-4AF5-8FD3-1C73E46BB558}
+		{A2B5848E-B263-4461-B602-7D8483CFD1FA} = {9ED50EFE-5587-4AF5-8FD3-1C73E46BB558}
+		{E47202E0-61C2-450C-B4B3-B1F61BAA082C} = {9ED50EFE-5587-4AF5-8FD3-1C73E46BB558}
+	EndGlobalSection
+EndGlobal

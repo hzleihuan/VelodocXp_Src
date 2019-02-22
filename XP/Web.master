@@ -1,0 +1,68 @@
+<%--
+/*
+ * Copyright © 2005-2008 Memba SA. All rights reserved.
+ * 
+ * This file is part of Velodoc XP Edition.
+ * 
+ * Velodoc XP Edition is open-source software: you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free Software Foundation,
+ * either version 2 of the License, or (at your option) any later version.
+ * 
+ * Velodoc XP Edition is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ * or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License along with Velodoc XP Edition.
+ * If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * For more information, please contact Memba at <http://www.memba.com>.
+ * You can find more information about Velodoc at <http://www.velodoc.com> and <http://www.velodoc.com/help>.
+ * You can try Velodoc online at <http://www.velodoc.net>.
+ *
+*/ 
+--%>
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Web.master.cs" Inherits="WebMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Master Page</title>
+    <meta http-equiv="Page-Exit" content="BlendTrans(Duration=0.1)" />
+    <meta name="robots" content="index,follow,nocache,noarchive" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="keywords" content="memba,velodoc,send files,transfer files,email files,file transfer" />
+    <meta name="description" content="Memba Velodoc is the easiest way to transfer files between email contacts." />
+</head>
+<body style="MARGIN:0px;">
+    <form id="frmMaster" runat="server">
+        <asp:ScriptManager ID="ScriptManager" runat="server" EnablePageMethods="true" >
+            <Scripts>
+                <asp:ScriptReference Path="~/ScriptLibrary/Memba.Utils.js" />
+            </Scripts>
+        </asp:ScriptManager>
+        <a id="top"></a> 
+        <div id="divMasterHeaderPane">
+            <vdui:header ID="MasterHeader" runat="server" EnableViewState="false" />
+        </div>
+        <div id="divMasterMainMenu">
+            <vdui:mainmenu id="MasterMainMenu" runat="server" EnableViewState="false" />
+        </div>
+        <div id="divMasterMainPane">
+            <mbui:InfoBox ID="PageTitle" runat="server" SkinID="sknPageTitle" Width="100%" EnableViewState="true"></mbui:InfoBox>
+            <div class="cssSeparatorDiv">&nbsp;</div>
+            <mbui:InfoBox ID="InfoBox" runat="server" SkinID="sknInfoBox" Width="100%" EnableViewState="false"></mbui:InfoBox>
+            <div class="cssSeparatorDiv">&nbsp;</div>
+            <div id="divPageContent"><asp:ContentPlaceHolder ID="PageContentPlaceHolder" runat="server"></asp:ContentPlaceHolder></div>
+            <div class="cssSeparatorDiv">&nbsp;</div>
+            <div id="divTopOfPage">
+                <asp:Image ID="TopOfPageImage" runat="server" ImageUrl="~/App_Images/16x16/topofpage.gif" ImageAlign="AbsBottom" AlternateText="<%$ Resources:Web.glossary, Master_TopOfPage %>" />
+                <asp:HyperLink ID="TopOfPageHyperLink" runat="server" SkinID="sknCommandHyperlink" NavigateUrl="#top" Text="<%$ Resources:Web.glossary, Master_TopOfPage %>" />
+            </div>
+        </div>
+        <div id="divMasterFooterPane">
+            <vdui:footer ID="MasterFooter" runat="server" EnableViewState="false" />
+        </div>
+    </form>
+</body>
+</html>

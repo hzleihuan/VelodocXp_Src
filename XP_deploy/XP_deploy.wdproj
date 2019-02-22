@@ -1,0 +1,90 @@
+﻿<!-- 
+  Microsoft Visual Studio 2005 Web Deployment Project 
+  http://go.microsoft.com/fwlink/?LinkId=55111
+-->
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.60403</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3D3D8F8B-B7FA-4025-922C-D8ABC807B234}</ProjectGuid>
+    <SourceWebPhysicalPath>..\XP</SourceWebPhysicalPath>
+    <SourceWebProject>{033409EB-C16B-486F-B53B-6033AAA48BDF}|D:\Documents\Velodoc XP Edition\XP</SourceWebProject>
+    <SourceWebVirtualPath>/XP</SourceWebVirtualPath>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\Debug</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>Memba.WebSite.XP</SingleAssemblyName>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <KeyFile>OpenSource.snk</KeyFile>
+    <VirtualDirectoryAlias>
+    </VirtualDirectoryAlias>
+    <ReplaceExistingVirtualDirectory>true</ReplaceExistingVirtualDirectory>
+    <DeleteAppDataFolder>true</DeleteAppDataFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\Release</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>Memba.WebSite.XP</SingleAssemblyName>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <KeyFile>OpenSource.snk</KeyFile>
+    <VirtualDirectoryAlias>
+    </VirtualDirectoryAlias>
+    <ReplaceExistingVirtualDirectory>true</ReplaceExistingVirtualDirectory>
+    <DeleteAppDataFolder>true</DeleteAppDataFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\Debug\**\*.*" />
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\**\*.scc" />
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\Bin\*.xml" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\**\*.pdb" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Memba.FileDownload\Memba.FileDownload.csproj">
+      <Project>{61DA03D6-D5DD-409B-A5D7-A8F197836227}</Project>
+      <Name>Memba.FileDownload</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Memba.FileUpload\Memba.FileUpload.csproj">
+      <Project>{5A958EC7-15E8-48B5-BCF7-F95AD7C7660C}</Project>
+      <Name>Memba.FileUpload</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Memba.WebControls\Memba.WebControls.csproj">
+      <Project>{7E8A8959-4EBD-4DF7-9125-8171D068DB63}</Project>
+      <Name>Memba.WebControls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WebDeployment\v8.0\Microsoft.WebDeployment.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.WebDeployment.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="BeforeMerge">
+  </Target>
+  <Target Name="AfterMerge">
+  </Target>
+  -->
+  <Target Name="AfterBuild">
+    <Delete Files="$(OutputPath)\bin\*.pdb" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    </Delete>
+    <Delete Files="$(OutputPath)\bin\*.compiled" Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    </Delete>
+  </Target>
+</Project>

@@ -1,0 +1,14 @@
+IMPORTANT
+
+Use the Orca tool to mark the MSI as UAC compliant every time you build the Setup project.
+See: http://xldennis.wordpress.com/2007/10/20/uac-compliant/
+
+
+To make the MSI UAC compliant 
+Build the Setup project.
+Exit Visual Studio.
+Start Orca and open the MSI from the build folder.
+On the View menu, click Summary Information.
+Click UAC Compliant.
+Click OK.
+On the File menu, click Save.

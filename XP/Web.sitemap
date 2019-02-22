@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" enableLocalization="true">
+	<siteMapNode title="RootNode">
+		<siteMapNode title="Drop files" url="~/drop.aspx" image="uploads.gif" resourceKey="DropBox" />
+		<siteMapNode title="Send files" url="~/send.aspx" image="message-new.gif" resourceKey="QuickSend" />
+	</siteMapNode>
+</siteMap>

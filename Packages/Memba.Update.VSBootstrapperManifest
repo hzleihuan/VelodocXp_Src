@@ -1,0 +1,27 @@
+<VSBootstrapperManifest>
+  <ProjectProperties ProjectName="Memba.Update" BuildLocation="PackagesDir" BuildDirectory="C:\Program Files\Microsoft.NET\SDK\v2.0\Bootstrapper\Packages\New Project" DefaultLanguage="en" />
+  <UIPackage ProductCode="Memba.Update.1.0">
+    <UIChecks>
+      <FileCheck Property="HasUpdate" FileName="Memba.Update.exe" Depth="0" StartInSpecialFolder="True" SpecialFolder="ProgramFilesFolder" SearchPath="Memba\Update" />
+    </UIChecks>
+    <Relationships>
+      <Relationship Type="DependsOn" Code="Microsoft.Net.Framework.3.5" />
+      <Relationship Type="DependsOn" Code="Microsoft.Windows.Installer.3.1" />
+    </Relationships>
+    <CustomSchedules />
+  </UIPackage>
+  <UIInstallFile FileName="D:\Working Folders\Memba Update\UpdateSetup\Release\UpdateSetup.msi" DisplayName="Memba Software Update" Arguments="" Reboot="Defer" InstallTime="30" InstallingSize="759808" InstalledSize="623232" PublicKey="&lt;&lt;File is not Digitally Signed&gt;&gt;" FileHash="9AB906679AAB9C01910975CBE989D71F8928C50B" Locale="neutral">
+    <UIChecks />
+    <UIInstallConditions>
+      <UIInstallCondition Type="ByPassIf" Property="HasUpdate" Operator="Exists" Value="N/A for ValueExists and ValueNotExists" Message="" />
+    </UIInstallConditions>
+    <UIExitCodes>
+      <UIExitCode ExitCode="0" Result="Success" Message="" />
+      <UIExitCode ExitCode="1641" Result="Success, Reboot Needed" Message="" />
+      <UIExitCode ExitCode="3010" Result="Success, Reboot Needed" Message="" />
+      <UIExitCode ExitCode="4123" Result="Success, Reboot Needed" Message="" />
+      <DefaultExitCode Result="Fail" FormatMessageFromSystem="True" Message="An unexpected exit code was returned from the installer. The installation failed." />
+    </UIExitCodes>
+    <LooseFiles />
+  </UIInstallFile>
+</VSBootstrapperManifest>

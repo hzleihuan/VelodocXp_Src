@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="App_Name" xml:space="preserve">
+    <value>Velodoc XP</value>
+    <comment>Do not translate</comment>
+  </data>
+  <data name="DropBox_WelcomeInfo" xml:space="preserve">
+    <value>Gebruik deze pagina om grote bestanden te verzenden aan de organisatie die deze site host. Voer uw e-mailadres in als afzender, kies de ontvanger, schrijf een bericht, selecteer bestanden voor de upload, accepteer de voorwaarden en klik op &lt;em&gt;Verzenden&lt;/em&gt;.</value>
+  </data>
+  <data name="MainMenu_GetHelp" xml:space="preserve">
+    <value>Help openen</value>
+  </data>
+  <data name="MainMenu_Home" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Master_TopOfPage" xml:space="preserve">
+    <value>Boven</value>
+  </data>
+  <data name="QuickMessageControl_BackButton" xml:space="preserve">
+    <value>Vorige</value>
+  </data>
+  <data name="QuickMessageControl_FileAlreadyInList" xml:space="preserve">
+    <value>Bestand bestaat al in de lijst.</value>
+  </data>
+  <data name="QuickMessageControl_GetHelp" xml:space="preserve">
+    <value>De online Help openen.</value>
+  </data>
+  <data name="QuickMessageControl_GoSecure" xml:space="preserve">
+    <value>Ga naar de veilige modus en gebruik gecodeerde communicatie.</value>
+  </data>
+  <data name="QuickMessageControl_GoUnsecure" xml:space="preserve">
+    <value>Ga naar de onveilige modus en optimaliseer prestaties.</value>
+  </data>
+  <data name="QuickMessageControl_InvalidSendInfo" xml:space="preserve">
+    <value>Voer een geldige e-mailadressen in voor de afzender en ontvanger, selecteer ten minste één bestand voor de upload en accepteer onze voorwaarden voordat u verzendt.</value>
+  </data>
+  <data name="QuickMessageControl_MissingUploadData" xml:space="preserve">
+    <value>Er zijn geen uploadgegevens.</value>
+  </data>
+  <data name="QuickMessageControl_NoCompleteFile" xml:space="preserve">
+    <value>Kan geen bestand uploaden. Controleer of de geselecteerde bestanden bestaan.</value>
+  </data>
+  <data name="QuickMessageControl_PoweredBy" xml:space="preserve">
+    <value>De broncode ophalen.</value>
+  </data>
+  <data name="QuickMessageControl_Recipient" xml:space="preserve">
+    <value>Geadresseerde:</value>
+  </data>
+  <data name="QuickMessageControl_SecurityCode" xml:space="preserve">
+    <value>Beveiligingscode:</value>
+  </data>
+  <data name="QuickMessageControl_SecurityCodeFailInfo" xml:space="preserve">
+    <value>U kunt geen bestanden verzenden, omdat het systeem de ingevoerde beveiligingscode niet kan controleren.</value>
+  </data>
+  <data name="QuickMessageControl_SendButton" xml:space="preserve">
+    <value>Verzenden</value>
+  </data>
+  <data name="QuickMessageControl_Sender" xml:space="preserve">
+    <value>Afzender:</value>
+  </data>
+  <data name="QuickMessageControl_SendFinalDescription" xml:space="preserve">
+    <value>De hieronder vermelde bestanden zijn overgedragen en worden op onze servers opgeslagen, waar ze {0} dagen beschikbaar zullen blijven. Uw ontvanger zal een e-mail ontvangen met instructies voor het downloaden van deze bestanden.</value>
+  </data>
+  <data name="QuickMessageControl_SendOKInfo" xml:space="preserve">
+    <value>Uw bestanden zijn geüpload en een bericht is verzonden.</value>
+  </data>
+  <data name="QuickMessageControl_SendProgressInfo" xml:space="preserve">
+    <value>Bezig met bestandsoverdracht. Sluit deze pagina niet of ga niet naar een andere pagina voordat de overdracht is voltooid.</value>
+  </data>
+  <data name="QuickMessageControl_SendProgressReport" xml:space="preserve">
+    <value>Bezig met bestand uploaden. Even geduld…</value>
+  </data>
+  <data name="QuickMessageControl_SendStep1" xml:space="preserve">
+    <value>Voer e-mailadressen in</value>
+  </data>
+  <data name="QuickMessageControl_SendStep2" xml:space="preserve">
+    <value>Schrijf een bericht</value>
+  </data>
+  <data name="QuickMessageControl_SendStep3" xml:space="preserve">
+    <value>Selecteer grote bestanden om te uploaden (maximaal in totaal {0})</value>
+  </data>
+  <data name="QuickMessageControl_SendStep4" xml:space="preserve">
+    <value>Stuur het bericht met de koppelingen voor het downloaden van de grote bestanden</value>
+  </data>
+  <data name="QuickMessageControl_StopButton" xml:space="preserve">
+    <value>Stoppen</value>
+  </data>
+  <data name="QuickMessageControl_StopInfo" xml:space="preserve">
+    <value>Upload geannuleerd door gebruiker.</value>
+  </data>
+  <data name="QuickMessageControl_Terms" xml:space="preserve">
+    <value>Ik accepteer de &lt;a href="terms.htm" target="_blank" class=" cssCommandHyperlink"&gt;voorwaarden en bepalingen van de diensten&lt;/a&gt;.</value>
+  </data>
+  <data name="QuickMessageControl_UploadNotComplete" xml:space="preserve">
+    <value>Kan geen bestandsrecords aanmaken wanneer de overdracht niet is voltooid.</value>
+  </data>
+  <data name="QuickSend_WelcomeInfo" xml:space="preserve">
+    <value>Gebruik deze pagina om grote bestanden via e-mail te verzenden. Kies de afzender en de ontvanger, schrijf een bericht, selecteer de te uploaden bestanden, voer de beveiligingscode in en klik op &lt;em&gt;Verzenden&lt;/em&gt;.</value>
+  </data>
+  <data name="sknImageList_RemoveTooltip" xml:space="preserve">
+    <value>Verwijderen uit selectie</value>
+  </data>
+  <data name="sknMultiUpload_Text" xml:space="preserve">
+    <value>Bestand kiezen…</value>
+  </data>
+  <data name="sknProgressReport_DefaultText" xml:space="preserve">
+    <value>Wachten...</value>
+  </data>
+  <data name="sknProgressReport_TextFormat" xml:space="preserve">
+    <value>{0} Voltooid.&lt;br/&gt;Uploaden {1} van {2} op {3}.&lt;br/&gt;Tijd verstreken: {4}, tijd resterend: {5}.</value>
+  </data>
+  <data name="UploadHandler_UnhandledException" xml:space="preserve">
+    <value>Er is een fout opgetreden bij het verwerken van de upload. Probeer het later opnieuw of neem contact met ons op.</value>
+  </data>
+  <data name="UploadHandler_Unknown" xml:space="preserve">
+    <value>onbekend</value>
+  </data>
+  <data name="WebService_AuthenticationFailInfo" xml:space="preserve">
+    <value>U kunt geen bestanden overdragen, omdat het systeem uw gegevens niet kan controleren (e-mail en beveiligingscode).</value>
+  </data>
+  <data name="WebService_NoCallFromOtherDomain" xml:space="preserve">
+    <value>Deze webdienst kan niet vanaf een ander domein worden opgeroepen.</value>
+  </data>
+  <data name="WebService_TimedOut" xml:space="preserve">
+    <value>De dienst is te druk. Probeer het over een paar minuten weer.</value>
+  </data>
+</root>

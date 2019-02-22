@@ -1,0 +1,470 @@
+/*
+ * Copyright © 2005-2008 Memba SA. All rights reserved.
+ * 
+ * This file is part of Velodoc XP Edition.
+ * 
+ * Velodoc XP Edition is open-source software: you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free Software Foundation,
+ * either version 2 of the License, or (at your option) any later version.
+ * 
+ * Velodoc XP Edition is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ * or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License along with Velodoc XP Edition.
+ * If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * For more information, please contact Memba at <http://www.memba.com>.
+ * You can find more information about Velodoc at <http://www.velodoc.com> and <http://www.velodoc.com/help>.
+ * You can try Velodoc online at <http://www.velodoc.net>.
+ *
+*/ 
+
+/*Colors used in this stylesheet
+	- SteelBlue =		#4682B4 -> Black = #0F0000
+	- LightSteelBlue =	#B0C4DE -> Gainsboro = #DCDCDC
+	- AliceBlue =		#F0F8FF -> Custom	 = #FAFAFA
+	- WhiteSmoke =		#F5F5F5
+	- Custom Green =	#52B424
+	- InfoBox Beige =	#F5F5DC
+	- InfoBox DarkRed = #8B0000
+	- Custom Red =		#CC0000
+*/
+body
+{
+	font-family:Calibri, Arial, Helvetica, sans-serif;
+	font-size:small;
+	margin:0px;
+	background-color:#FFFFFF !important;
+}
+hr
+{
+	height:1px;
+	color:#DCDCDC;
+	background-color:#DCDCDC;
+	border:none;
+}
+/*********************************************
+/*Master general layout
+/*********************************************/
+div#divMasterHeaderPane
+{
+	border-bottom:#DCDCDC 1px solid;		
+}
+td#tdTabbedMenuTabs
+{
+	background-color:#0F0000;
+	padding-top:5px;
+}
+td#tdTabbedMenuButtons
+{
+	background-color:#0F0000;
+	padding-right:5px;
+	width:92px;
+}
+div#divMasterMainPane
+{
+	padding:5px;
+}
+td#tdMasterLeftPane
+{
+	background-color:#F5F5F5;
+	border-right:#DCDCDC 1px solid;
+	width:200px;
+}
+td#tdMasterRightPane
+{
+	background-color:#FFFFFF !important;
+	width:95%;
+	padding:5px;
+}
+div#divPageContent
+{
+}
+div#divMasterFooterPane
+{
+	border-top:#DCDCDC 1px solid;
+}
+div.cssSeparatorDiv
+{
+	font-size:5px;
+	height:5px;
+}
+/*********************************************
+/*Header
+/*********************************************/
+td.cssHeaderL1C1
+{
+	font-size:6px;
+	background-color:#DCDCDC;
+	background-image:url(logo.gif);
+	background-repeat:no-repeat;
+	height:50px;
+	width:150px;
+}
+td.cssHeaderL1C2
+{
+	font-size:6px;
+	background-color:#F5F5F5;
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#DCDCDC', endColorStr='#F5F5F5', gradientType='1');
+	background-image:url(topleftgradient.jpg);
+	background-repeat:repeat-y;
+	background-position:left;
+	height:15px;
+	width:45%;
+}
+td.cssHeaderL1C3
+{
+	font-size:6px;
+	background-color:#F5F5F5;
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#F5F5F5', endColorStr='#DCDCDC', gradientType='1');
+	background-image:url(toprightgradient.jpg);
+	background-repeat:repeat-y;
+	background-position:right;
+	height:15px;
+	width:45%;
+}
+td.cssHeaderL1C4
+{
+	font-size:6px;
+	background-color:#DCDCDC;
+	height:15px;
+	width:24px;
+}
+td.cssHeaderL2C2
+{
+	font-size:6px;
+	background-color:#FFFFFF;
+	filter:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#0F0000', endColorStr='#FFFFFF', gradientType='1');
+	background-image:url(bottomgradient.jpg);
+	background-repeat:repeat-y;
+	background-position:left;
+	height:35px;
+	width:90%;
+}
+td.cssHeaderL2C4
+{
+	font-size:6px;
+	background-color:#FFFFFF;
+	height:35px;
+	width:24px;
+}
+/*********************************************
+/*Footer
+/*********************************************/
+a.cssFooterLink:link, a.cssFooterLink:active, a.cssFooterLink:visited 
+{
+	color:#0F0000;
+	font-size:xx-small;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	text-decoration:none;
+}
+a.cssFooterLink:hover
+{
+	text-decoration:underline;
+}
+/*********************************************
+/*Tabbed Menu
+/*********************************************/
+.cssLoginName
+{
+	font-weight:bold;
+	margin-top:4px;
+	margin-bottom:4px;
+	color:White;
+	font-weight:bold;
+}
+.cssTabbedMenuControl
+{
+}
+.cssTabbedMenu
+{
+    background-color:#0F0000;      
+    margin-left:10px;
+}
+.cssTabbedMenuItem
+{
+    color:#FFFFFF;
+    background-color:#0F0000;
+    padding:5px;
+    border-top:Solid 1px #0F0000;
+    border-left:Solid 1px #0F0000;
+    border-right:Solid 1px #0F0000;
+    
+}
+.cssTabbedMenuHover
+{
+    border-top:Solid 1px #DCDCDC;
+    border-left:Solid 1px #DCDCDC;
+    border-right:Solid 1px #DCDCDC;
+    padding:5px;
+}
+.cssTabbedMenuSelected
+{
+    color:#0F0000;
+    background-color:white;
+    border-top:Solid 1px #DCDCDC;
+    border-left:Solid 1px #DCDCDC;
+    border-right:Solid 1px #DCDCDC;
+    padding:5px;
+}
+/*********************************************
+/*Page Title
+/*********************************************/
+.cssPageTitleTable
+{
+}
+.cssPageTitleImage
+{
+}
+.cssPageTitleLabel
+{
+	padding-left:10px;
+	color:#0F0000;
+	font-size:x-large;
+	font-weight:bold;
+}
+.cssPageSubTitleLabel
+{
+	color:#0F0000;
+	font-size:large;
+}
+.cssStepTitle
+{
+	/*padding-left:10px;*/
+	color:#52B424;
+	font-size:medium;
+	font-weight:bold;
+}
+/*********************************************
+/*Info Box
+/*********************************************/
+.cssInfoBoxTable
+{ 
+	background-color:#F5F5DC;
+	border:#8B0000 1px solid;
+	padding:5px;
+	text-align:left;
+}
+.cssInfoBoxImage
+{
+}
+.cssInfoBoxLabel
+{
+	color:#8B0000;
+}
+.cssInfoBoxLabel a:link, .cssInfoBoxLabel a:active, .cssInfoBoxLabel a:visited
+{
+	color:#8B0000;
+	text-decoration:none;
+}
+.cssInfoBoxLabel a:hover
+{
+	color:#8B0000;
+	text-decoration:underline;
+}
+.cssUrgentInfoBoxTable
+{
+	background-color:#FFC4B9;
+	border:solid 1px #D41F00;
+	padding:5px;
+	text-align:left;
+}
+.cssUrgentInfoBoxImage
+{
+}
+.cssUrgentInfoBoxLabel
+{
+	color:#D41F00;
+}
+.cssUrgentInfoBoxLabel a:link, .cssUrgentInfoBoxLabel a:active, .cssUrgentInfoBoxLabel a:visited
+{
+	color:#D41F00;
+	text-decoration:none;
+}
+.cssUrgentInfoBoxLabel a:hover
+{
+	color:#D41F00;
+	text-decoration:underline;
+}
+/*********************************************
+/*Form data entry controls
+/*********************************************/
+.cssOptionalFieldLabel
+{
+	color:#0F0000;
+}
+.cssMandatoryFieldLabel
+{
+	color:#CC0000;
+}
+.cssFieldValue
+{
+	color:#0F0000;
+}
+.cssHelpLabel
+{
+	color:#444444;
+	font-size:smaller;
+}
+.cssTextBox
+{
+	border:1px solid #0F0000;
+	width:200px;
+}
+.cssTextArea
+{
+	border:1px solid #0F0000;
+	font-family:Calibri, Arial, Helvetica, sans-serif;
+	font-size:small;
+}
+.cssDropDownList
+{
+	border:1px solid #0F0000;
+	width:200px;
+}
+.cssCheckBox
+{
+	/*border:1px solid #0F0000;*/
+}
+a.cssCommandHyperlink:link, a.cssCommandHyperlink:active, a.cssCommandHyperlink:visited, a.cssLinkButton:link, a.cssLinkButton:active, a.cssLinkButton:visited
+{
+	color:#0F0000;
+	text-decoration:none;
+}
+a.cssCommandHyperlink:hover, a.cssLinkButton:hover
+{
+	text-decoration:underline;
+}
+a.cssCommandHyperlink img
+{
+	vertical-align:text-bottom;
+}
+a.cssFieldHyperlink:link, a.cssFieldHyperlink:active, a.cssFieldHyperlink:visited
+{
+	color:#0F0000;
+	text-decoration:none;
+}
+a.cssFieldHyperlink:hover
+{
+	text-decoration:underline;
+}
+.cssWarningIcon
+{
+    padding-right:20px;
+    background:transparent url(warning.gif) no-repeat center right;
+}
+.cssFileUpload
+{
+	border:1px solid #0F0000;
+}
+.cssButton
+{
+	font-size:large;
+	border:1px solid #0F0000;
+}
+/*********************************************
+/*Form data entry validators
+/*********************************************/
+.cssRequiredFieldValidator
+{
+	color:#CC0000;
+}
+.cssCompareValidator
+{
+	color:#CC0000;
+}
+/*********************************************
+/*Progress Bars
+/*********************************************/
+div.cssProgressReport
+{
+	text-align:left;
+}
+div.cssProgressBar
+{
+	border:solid 1px #52B424;
+	padding:1px;
+	background-color:#FFFFFF;
+}
+div.cssProgressFiller
+{
+	background-color:#52B424;
+	height:10px;
+}
+div.cssProgressText
+{
+}
+/*********************************************
+/*File Lists and MultiUploads
+/*********************************************/
+div.cssFileList
+{
+    position:relative;
+    overflow:auto;
+    height:92px;
+    border:1px solid #0F0000;
+    background-color:#FFFFFF;
+    clear:both;
+}
+div.cssFileListItem
+{
+    position:relative;
+    width:70px;
+    height:70px;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+    border:1px solid #FFFFFF;
+    background-color:#FFFFFF;
+    float:left;
+}
+div.cssFileListItemHover
+{
+    position:relative;
+    width:70px;
+    height:70px;
+    padding:5px;
+    margin:5px;
+    text-align:center;
+    border:solid 1px #DCDCDC;
+    background-color:#FAFAFA;
+    float:left;
+}
+img.cssFileListImage
+{
+	height:32px;
+	width:32px;
+	border:0px;
+}
+div.cssFileListText
+{
+    font-family:Calibri, Arial, Helvetica, sans-serif;
+    font-size:9px;
+    white-space:normal;
+}
+img.cssFileListRemove
+{
+    position:absolute;
+    top:64px;
+    left:64px;
+	height:16px;
+	width:16px;
+	border:0px;
+    z-index:10;
+    cursor:pointer;
+}
+span.cssMultiUpload
+{
+	color:#0F0000;
+	text-decoration:none;
+    white-space:nowrap;
+}
+span.cssMultiUploadHover
+{
+	color:#0F0000;
+	text-decoration:underline;
+    white-space:nowrap;
+}
